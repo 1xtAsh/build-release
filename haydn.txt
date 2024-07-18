@@ -1,0 +1,29 @@
+Device: Mi 11x Pro/Redmi K40 Pro
+Device code name: haydn
+Device maintainer: Ashray Singh
+
+########### Changelogs ###########
+
+Date - 16/09/2024
+=================
+DEVICE:
+* update kernel to Linux 5.4.284
+* Merge CAF LA.UM.9.14.r1-25000.01-LAHAINA.QSSI15.0
+* Updated vendor blobs to HyperOS V816.0.3.0.UKKCNXM
+* fix annoying speaker issues when audio is played
+* Revert"Get rid of reserved sizes" (this fixes read only file system for root dir)
+* switch to lz4 compression for ZRAM
+* Set swappiness to 60 (default value of 100 is agressive af)
+* Downgrade zram to 2GB (4GB is high and 2GB is just enough for us)
+* Set AOD max refreshrate to 60Hz
+* Drop some prebuilt packages
+
+SOURCE: 
+   Not enough time to write changes i made in source,tho u can visit my git and suit yourself - (https://github.com/1xtAsh)
+   
+##Notes
+
+- Includes Leica cam and Miui Gallery
+- Includes Dolby sound
+- Kernel SU supported
+- If you have any issue please tag me in my group with proper logs if possible
