@@ -1,0 +1,27 @@
+Device: Mi 11x Pro/Redmi K40 Pro
+Device code name: haydn
+Device maintainer: Ashray Singh
+
+########### Changelogs ###########
+
+Date - 01/11/2024
+=================
+DEVICE:
+* Drop Moto Dolby and adapt for Xiaomi Dolby
+* Sync with MIUI CN 14 dolby effects
+* Add support for Dolby spatial audio
+* Add dolby volume listener
+* Drop InnerTune
+* Drop Lawnchair and use Launcher3
+* HIGHLIGHT: Add A11 style QS panel
+* Make round QS toggleable
+
+SOURCE: 
+   Not enough time to write changes i made in source,tho u can visit my git and suit yourself - (https://github.com/1xtAsh)
+   
+##Notes
+
+- Includes Leica cam and Miui Gallery
+- Includes Dolby sound
+- Kernel SU supported
+- If you have any issue please tag me in my group with proper logs if possible
