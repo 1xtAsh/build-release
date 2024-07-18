@@ -1,0 +1,48 @@
+Device: Mi 11x Pro/Redmi K40 Pro
+Device code name: haydn
+Device maintainer: Ashray Singh
+
+########### Device Changelog ###########
+
+Date - 18/07/2024
+=================
+* Disbale kpti
+* props: Enabled the pre-rendering feature
+* props: Add a property to enable prefetching video
+* rootdir: Do not allow restricted task to run on big cores
+* rootdir: switch hwcomposer to foreground CPU set
+* rootdir: move background cpuset to CUP0-1
+* rootdir: make less cores available for background tasks
+* Enable support for IEE80211AX
+* Declare 6ghz wifi support
+* Enable multi-stage SVA
+* move to new RFS install_symlink targets
+* switch to dot prod CPU varient
+* Optimize native executables for Cortex-A76 CPU
+* Guard qti thermal 2.0 service hals
+* Do not balance msm_drm and kgsl_3d0 IRQs
+* Disable Vulkan
+* set screen record max framerate to 90Hz
+* set AOD max refreshrate to 60Hz
+* increase AOD brightness
+* set swappiness to a lower of 60
+* Disable vSync for CPU-rendered apps
+* Disable skia tracing by default
+* wifi: Enable Optimized Power Management
+* silence some spam messages
+* Don't pin launcher in memory
+* Reduce LOWI debug level 
+* Update adreno blobs from FairPhone 5
+* import bthost_ipc from Qcom BT
+* Disable display refresh rate override
+* prefer deep over s2idle for lahaina
+* many other kernel side changes and improvements
+
+##Notes
+
+- NikGapps recommended for vanilla builds
+- Includes Leica cam and Miui Gallery
+- Includes Dolby sound
+- Kernel SU supported
+- Firmware Included
+- If you have any issue please tag me in my group with proper logs if possible
