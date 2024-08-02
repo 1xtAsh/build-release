@@ -4,6 +4,26 @@ Device maintainer: Ashray Singh
 
 ########### Device Changelog ###########
 
+Date - 2/08/2024
+=================
+* Add BCR support again
+* Revert"Update adreno blobs from FairPhone 5"
+* Revert"import bthost_ipc from Qcom BT"
+* Enable SurflaceFlinger's timers
+* Enable SurflaceFlinger's display power timers
+* Relax Refresh rate timers
+* Downgrade zram to 2GB
+* switch to lz4 for zram
+* Disable proximity usage during doze
+* Disable lift to check phone by default
+* move citsensorservice to background cpuset
+* configure TCP buffer sizes per network type
+* configure wifi TCP buffer sizes
+* Switch to AOSP WFD (to fix cast)
+* Force disable low ram config
+* Import Diag HAL
+* switched kernel to FarFromStock (source:https://github.com/1xtAsh/kernel-xiaomi-sm8350/commits/FarFromStock/)
+
 Date - 18/07/2024
 =================
 * Disbale kpti
