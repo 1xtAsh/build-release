@@ -4,6 +4,17 @@ Device maintainer: Ashray Singh
 
 ########### Device Changelog ###########
 
+Date - 19/08/2024
+=================
+* Fixed VoWiFi.
+* Import DC Dimming and HBM
+* Fix black screen when DC dimming is on and the brightness is set to low
+* Fix Google voice record 
+* Add some missing libs for Dolby Atmos
+* Fixed screen flickering in Dark environments
+* Drop vm-bootsys from fstab
+* Set config_sustainedPerformanceModeSupported
+
 Date - 2/08/2024
 =================
 * Add BCR support again
