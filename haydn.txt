@@ -3,6 +3,33 @@ Device code name: haydn
 Device maintainer: Ashray Singh
 
 ########### Device Changelog ###########
+Date - 28/08/2024
+
+* Update adreno blobs from NP(1) EEA
+* Switch to common lineage Powershare hal
+* Disable DRC
+* Enable camera override format from reserved
+* Fixed broken in-game mic
+* Fixed VoWiFi.
+* Import DC Dimming and HBM
+* Fix black screen when DC dimming is on and the brightness is set to low
+* Fix Google voice record 
+* Add some missing libs for Dolby Atmos
+* Fixed screen flickering in Dark environments
+* Drop vm-bootsys from fstab
+* Set config_sustainedPerformanceModeSupported
+* Add BCR support again
+* Relax Refresh rate timers
+* Downgrade zram to 2GB
+* switch to lz4 for zram
+* Disable proximity usage during doze
+* Disable lift to check phone by default
+* move citsensorservice to background cpuset
+* configure TCP buffer sizes per network type
+* configure wifi TCP buffer sizes
+* Switch to AOSP WFD (to fix cast)
+* Force disable low ram config
+* Import Diag HAL
 
 Date - 21/07/2024
 =================
