@@ -3,8 +3,25 @@ Device code name: haydn
 Device maintainer: Ashray Singh
 
 ########### Device Changelog ###########
-Date - 28/08/2024
 
+Date - 19/09/2024
+=================
+* Revert"Update adreno blobs from NP(1) EEA"
+* Move to Xiaomi IR AIDL
+* Drop SDM LiveDisplay service
+* Update perf configs from AOSPA
+* perf: Disable IOP
+* perf: Remove ro.vendor.at_library
+* perf: Disable gesture fling boost
+* Use foreground uclamp for hwcomposer
+* Use foreground cpuset/uclamp for gralloc
+* Use HintManager for HWUI
+* Use task_profiles from ROM source
+* update kernel to Linux 5.4.284
+* Merge CAF LA.UM.9.14.r1-25000.01-LAHAINA.QSSI15.0
+
+Date - 28/08/2024
+=================
 * Update adreno blobs from NP(1) EEA
 * Switch to common lineage Powershare hal
 * Disable DRC
@@ -13,7 +30,7 @@ Date - 28/08/2024
 * Fixed VoWiFi.
 * Import DC Dimming and HBM
 * Fix black screen when DC dimming is on and the brightness is set to low
-* Fix Google voice record 
+* Fix Google voice record
 * Add some missing libs for Dolby Atmos
 * Fixed screen flickering in Dark environments
 * Drop vm-bootsys from fstab
@@ -58,7 +75,7 @@ Date - 21/07/2024
 * wifi: Enable Optimized Power Management
 * silence some spam messages
 * Don't pin launcher in memory
-* Reduce LOWI debug level 
+* Reduce LOWI debug level
 * Update adreno blobs from FairPhone 5
 * import bthost_ipc from Qcom BT
 * Disable display refresh rate override
