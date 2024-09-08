@@ -4,6 +4,28 @@ Device maintainer: Ashray Singh
 
 ########### Device Changelog ###########
 
+Date - 09/09/2024
+=================
+* Remove order preference for Thermal Profiles
+* Fixed lag in pip mode
+* Switch to common lineage Powershare hal
+* Move to Xiaomi IR AIDL
+* Drop SDM LiveDisplay service
+* Disable pocket mode lock
+* Enabled force LTE_CA toggle
+* Updated Perf Configs from AOSPA
+* Disable IOP
+* Disable Gesture Fling boost
+* Use foreground uclamp for hwcomposer
+* Use foreground cpuset/uclamp for gralloc
+* Use HintManager for HWUI
+* Use task_profiles from system/core
+* Upstream kernel with latest linux and CAF tags 
+* miscellaneous improvements here and there
+* To Track Changes Made In Source By Me Follow The Links Below:
+   FWB : https://github.com/ashraysingh/frameworks_base
+   SETTINGS : https://github.com/ashraysingh/packages_apps_Settings
+
 Date - 21/08/2024
 =================
 * Fixed VoWiFi.
@@ -17,7 +39,6 @@ Date - 21/08/2024
 
 ##Notes
 
-- NikGapps recommended for vanilla builds
 - Includes Leica cam and Miui Gallery
 - Includes Dolby sound
 - Kernel SU supported
