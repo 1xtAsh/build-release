@@ -4,6 +4,37 @@ Device maintainer: Ashray Singh
 
 ########### Device Changelog ###########
 
+Date - 09/09/2024
+=================
+* Relax Refresh rate timers
+* Downgrade zram to 2GB
+* switch to lz4 for zram
+* Disable proximity usage during doze
+* Disable lift to check phone by default
+* move citsensorservice to background cpuset
+* configure TCP buffer sizes per network type
+* configure wifi TCP buffer sizes
+* Switch to AOSP WFD (to fix cast)
+* Force disable low ram config
+* Import Diag HAL
+* Move to Xiaomi IR AIDL
+* Drop SDM LiveDisplay service
+* Switch to common lineage Powershare hal
+* Update perf configs from AOSPA
+* perf: Disable IOP
+* perf: Remove ro.vendor.at_library
+* perf: Disable gesture fling boost 
+* Use foreground uclamp for hwcomposer
+* Use foreground cpuset/uclamp for gralloc
+* Use HintManager for HWUI
+* Use task_profiles from ROM source
+* Remove order preference for Thermal Profiles
+* Fixed lag in pip mode
+* Disable pocket mode lock
+* Enabled force LTE_CA toggle
+* Upstream kernel with latest linux and CAF tags 
+* miscellaneous improvements here and there
+
 Date - 19/08/2024
 =================
 * Fixed VoWiFi.
