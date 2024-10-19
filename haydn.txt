@@ -4,6 +4,17 @@ Device maintainer: Ashray Singh
 
 ########### Device Changelog ###########
 
+Date - 19/10/2024
+=================
+*Revert "sm8350-common: Properly init qti perf hal"
+*Do not balance msm_drm and kgsl_3d0 IRQs
+*Partially revert "Move to QTI health AIDL service
+*Migrate sensor HAL to AIDL interface
+*Fix certified props once again to pass SafetyNet
+* To Track Changes Made In Source By Me Follow The Links Below:
+   FWB : https://github.com/ashraysingh/frameworks_base
+   SETTINGS : https://github.com/ashraysingh/packages_apps_Settings
+
 Date - 09/09/2024
 =================
 * Remove order preference for Thermal Profiles
