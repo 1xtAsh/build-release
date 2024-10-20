@@ -4,6 +4,13 @@ Device maintainer: Ashray Singh
 
 ########### Device Changelog ###########
 
+Date - 20/10/2024
+=================
+*Revert "sm8350-common: Properly init qti perf hal"
+*Do not balance msm_drm and kgsl_3d0 IRQs
+*Partially revert "Move to QTI health AIDL service
+*Migrate sensor HAL to AIDL interface
+
 Date - 09/09/2024
 =================
 * Relax Refresh rate timers
