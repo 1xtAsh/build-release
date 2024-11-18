@@ -1,0 +1,25 @@
+Device: Mi 11x Pro/Redmi K40 Pro
+Device code name: haydn
+Device maintainer: Ashray Singh
+
+########### Changelogs ###########
+
+Date - 18/11/2024
+=================
+*Revert recovery to boot
+*Enable support for IEEE80211AX
+*Link libwvhidl against libcrypto from vndk 33
+*Switch to AIDL USB HALs
+*Switch to AIDL thermal HAL
+*Set game refresh rate override to 120
+*Sync with MIUI CN 14 dolby effects
+*Import Bluetooth Devices Encodings for Dolby Processing
+*Allow gettid call for atfwd
+*update camera blobs from v816.0.3.0.UKKCNXM
+ 
+##Notes
+
+- Includes Leica cam and Miui Gallery
+- Includes Dolby sound
+- Kernel SU supported
+- If you have any issue please tag me in my group with proper logs if possible
