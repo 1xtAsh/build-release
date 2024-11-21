@@ -4,6 +4,25 @@ Device maintainer: Ashray Singh
 
 ########### Device Changelog ###########
 
+Date - 21/11/2024
+=================
+* Rebased Trees 
+* Drop Display colour feature
+* Drop Oneplus Dolby
+* Silence some spammy logs
+* Migrate sensor HAL to AIDL interface
+* Build libcamera2ndk_vendor libion 
+* Revert "sm8350-common: Inherit common partition reserved sizes"
+* Revert recovery to boot
+* Add support for Xiaomi Dolby
+* Sync with MIUI CN 14 dolby effects
+* Add support for Dolby spatial audio
+* Add dolby volume listener
+* Add LDAC & LHDC codecs
+* Import Bluetooth Devices Encodings for Dolby Processing
+* Update blobs from haydn V816.0.6.0.UKKMIXM
+* update camera blobs from haydn v816.0.2.0.UKKCNMX
+
 Date - 19/09/2024
 =================
 * Revert"Update adreno blobs from NP(1) EEA"
