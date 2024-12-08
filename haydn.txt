@@ -4,6 +4,15 @@ Device maintainer: Ashray Singh
 
 ########### Changelogs ###########
 
+Date - 08/12/2024
+=================
+*Drop some prebuilt packages
+*Switch audio HAL to V7
+*Add support for spatial audio
+*Allow perf hal to read graphics composer
+*Disable unsupported perf resources
+*Upstream kernel and merged latest CAF tags
+
 Date - 18/11/2024
 =================
 *Revert recovery to boot
