@@ -4,6 +4,25 @@ Device maintainer: Ashray Singh
 
 ########### Changelogs ###########
 
+Date - 22/01/2025
+=================
+* Pull latest source changes
+* Remove software omx codec references
+* Remove unused media_codecs_c2_audio inclusion
+* Remove unused `media_codecs_vendor_audio.xml
+* Remove OMX 
+* Move input surface to CCodec
+* Disable logging sensors-hal events
+* Move WfdCommon boot jar declaration to vendor
+* Import OOS modified volumes
+* Renable Volume-leveler by default
+* Fix default game refresh rate in games
+* Fix Camera Resolution and crashing issue 
+
+Date - 14/01/2025
+=================
+* Initial January QPR1 release
+
 Date - 08/12/2024
 =================
 *Drop some prebuilt packages
