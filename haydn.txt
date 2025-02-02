@@ -4,6 +4,31 @@ Device maintainer: Ashray Singh
 
 ########### Device Changelog ###########
 
+Date - 02/02/2025
+=================
+* Allow Perf Hal To Read Graphics Composer
+* Disable Unsupported Perf Resources
+* Update Pinner Files For Systemuigoogle After Pixel_Fw Merge
+* Audio: Bring All Stream Effects
+* Audio: Import Oos Modified Volumes
+* Remove Omx
+* Move Input Surface To Ccodec
+* Audio: Remove Direct Flag For Voip Rx
+* Add Context_Hub Into Audio Hal Group
+* Enable Rt Priority Inheritance
+* Optimize For Spatial Audio
+* Move citsensorservice to background cpuset
+* Nuke ATFWD
+* Disable pocket mode lock
+* Turn on screen on unplug
+* Drop QTI perfd stack
+* Use common libqti-perfd-client and power-libperfmgr
+* Set config_sustainedPerformanceModeSupported
+* Disable vendor.audio.feature.kpi_optimize.enable
+* Import powerhint.json from coral && modify the values
+* Implement DSPVolumeSynchronizer
+* Apply NLSound 4.1
+
 Date - 19/10/2024
 =================
 *Revert "sm8350-common: Properly init qti perf hal"
