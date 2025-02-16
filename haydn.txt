@@ -4,6 +4,16 @@ Device maintainer: Ashray Singh
 
 ########### Changelogs ###########
 
+Date - 16/02/2025
+=================
+* Bump to latest source changes
+* Use armv8-2a for 2nd arch variant
+* Configure schedutil up/down rate limit
+* Remove duplicate snxxx AIDL rules
+* Drop various debug configs (kernel source)
+* Added KSU-next support
+* Fixed Leica Camera where various mods were not working
+
 Date - 22/01/2025
 =================
 * Pull latest source changes
