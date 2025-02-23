@@ -4,6 +4,16 @@ Device maintainer: Ashray Singh
 
 ########### Device Changelog ###########
 
+Date - 23/02/2025
+=================
+* Synced latest source changes. Visit (https://github.com/PixelOS-AOSP)
+* Fixed play integrity once again
+* Fixed issues related with leica camera
+* Add support for KSU-Next
+* powerhint: Fine tune for battery
+* Fixed VoWiFi
+* many other fixes and improvements 
+
 Date - 02/02/2025
 =================
 * Allow Perf Hal To Read Graphics Composer
